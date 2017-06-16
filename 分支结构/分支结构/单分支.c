@@ -1,9 +1,34 @@
 #include<stdio.h>   //方便输入输出
 #include<stdlib.h>  //为了使用system语句
 
+//死循环
+void main5()
+{
+	while (1); //去掉;为死循环，不然执行到;
+	{
+		printf("asdasdasdasda");
+	}
+}
+
+
+
+void main4()
+{
+	//if (1)  //if语句如果有块语句，作用范围就是块语句
+	//{
+	//	system("notepad");
+	//	system("calc");
+	//}
+	if (0)	  //如果没有块语句作用范围就是最近的一个分号前面的语句
+		;	  //作用于第一行的空语句
+		system("notepad");
+		system("calc");
+	system("pause");
+}
+
 
 //从小到大输出a,b,c的值
-void main()
+void main3()
 {
 	double a, b, c;
 	printf("分别输入a,b,c\n");
