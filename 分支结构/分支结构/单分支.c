@@ -1,3 +1,6 @@
+#define _CRT_SECURE_NO_WARNINGS
+
+
 #include<stdio.h>   //方便输入输出
 #include<stdlib.h>  //为了使用system语句
 
